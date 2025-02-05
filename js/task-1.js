@@ -7,7 +7,7 @@ function makeTransaction (quantity, pricePerDroid, customerCredits) {
     }
 }
 
-makeTransaction();
+makeTransaction(0, 0, 0);
 
 console.log(makeTransaction(5, 3000, 23000));
 console.log(makeTransaction(3, 1000, 15000));

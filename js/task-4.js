@@ -13,7 +13,7 @@ function getShippingCost(country) {
     }
 }
 
-getShippingCost();
+getShippingCost('');
 
 console.log(getShippingCost("Australia"));
 console.log(getShippingCost("Germany"));
